@@ -1,0 +1,58 @@
+[
+    {
+        "age": "13",
+        "number_vaccinated": "1"
+    },
+    {
+        "age": "17",
+        "number_vaccinated": "1"
+    },
+    {
+        "age": "18",
+        "number_vaccinated": "3"
+    },
+    {
+        "age": "24",
+        "number_vaccinated": "2"
+    },
+    {
+        "age": "25",
+        "number_vaccinated": "3"
+    },
+    {
+        "age": "26",
+        "number_vaccinated": "3"
+    },
+    {
+        "age": "27",
+        "number_vaccinated": "1"
+    },
+    {
+        "age": "28",
+        "number_vaccinated": "1"
+    },
+    {
+        "age": "29",
+        "number_vaccinated": "3"
+    },
+    {
+        "age": "30",
+        "number_vaccinated": "3"
+    },
+    {
+        "age": "31",
+        "number_vaccinated": "2"
+    },
+    {
+        "age": "32",
+        "number_vaccinated": "3"
+    },
+    {
+        "age": "33",
+        "number_vaccinated": "6"
+    },
+    {
+        "age": "34",
+        "number_vaccinated": "1"
+    }
+]
