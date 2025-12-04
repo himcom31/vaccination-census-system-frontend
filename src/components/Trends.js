@@ -10,7 +10,7 @@ const Trend = () => {
   const [data, setData] = useState([]);
 
   const getAllData = async () => {
-    const { data } = await axios.get("http://localhost:8000/records");
+    const { data } = await axios.get("https://vaccination-census-system-backend-3.onrende/records");
     setData(data.data);
   };
   useEffect(() => {
@@ -23,8 +23,8 @@ const Trend = () => {
   const [lineData2, setLineData2] = useState([]);
   
   const getLineChartData =async ()=>{
-    const lineChart = await axios.get("http://localhost:8000/number-vaccinated");
-    const lineChart2 = await axios.get("http://localhost:8000/number-not-vaccinated"); 
+    const lineChart = await axios.get("https://vaccination-census-system-backend-3.onrende/number-vaccinated");
+    const lineChart2 = await axios.get("https://vaccination-census-system-backend-3.onrende/number-not-vaccinated"); 
     setLineData(lineChart.data.data);
     setLineData2(lineChart2.data.data);
   }
@@ -40,9 +40,9 @@ const Trend = () => {
   const [barDataFemale,setBarDataFemale] = useState([]);
   const [barDataOthers,setBarDataOthers] = useState([]);
 const getBarChartData = async ()=>{
-  const barChartMale = await axios.get("http://localhost:8000/number-gender-male");
-  const barChartFemale = await axios.get("http://localhost:8000/number-gender-female");
-  const barChartOthers = await axios.get("http://localhost:8000/number-gender-others");
+  const barChartMale = await axios.get("https://vaccination-census-system-backend-3.onrende/number-gender-male");
+  const barChartFemale = await axios.get("https://vaccination-census-system-backend-3.onrende/number-gender-female");
+  const barChartOthers = await axios.get("https://vaccination-census-system-backend-3.onrende/number-gender-others");
   setBarDataMale(barChartMale.data.data);
   setBarDataFemale(barChartFemale.data.data);
   setBarDataOthers(barChartOthers.data.data);
