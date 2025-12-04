@@ -30,7 +30,7 @@ const Form = () => {
     const is_vaccinated = isVaccinated === "true";
 
     axios
-      .post("https://vaccination-census-system-backend-3.onrende/records", {
+      .post("https://vaccination-census-system-backend-3.onrender.com/records", {
         name,
         is_vaccinated,
         birthdate,
